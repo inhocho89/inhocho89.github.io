@@ -1,0 +1,89 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.image {
+  position: relative;
+  border-radius: 0.5rem;
+  border-width: 0px;
+  border-style: initial;
+  border-color: initial;
+  border-image: initial;
+}
+
+h2, h3 {
+  margin-bottom: 1rem;
+}
+
+.topper {
+  margin: 2em;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.topper .image img {
+  border-radius: 80%;
+  margin-right: 3em;
+}
+
+.basic_info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.basic_info p {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+body {
+  padding-top: 5rem;
+  font-size: 1.1em;
+}
+
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+div.info {
+  padding: 2rem 1.5rem 0rem 1.5rem;
+  text-align: left;
+}
+
+a {
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  line-height: 1.5;
+  color: #212529;
+  border-bottom: dotted 1px black;
+}
+
+a:hover {
+  color: #212529;
+  border-bottom: solid 1px black;
+  text-decoration: none;
+}
+
+.pub ul {
+  list-style: none;
+  padding-inline-start: 20px;
+}
+
+.myname {
+  background: #dbf5ff;
+}
+
+li.pub-article {
+  margin-bottom: 1.5em;
+}
